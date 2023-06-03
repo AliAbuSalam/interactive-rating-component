@@ -1,0 +1,48 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  margin: 0;
+  padding: 0;
+  font-family: 'Overpass', 'Times New Roman', Times, serif;
+}
+
+.img-container {
+  background-color: hsl(214, 19%, 31%);
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  border-radius: 50%;
+  background-image: url('./images/icon-star.svg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  /* padding-left: 8px;
+  padding-top: 8px; */
+}
+
+.img-container img {
+  
+}
+
+.container {
+  width: 100vw;
+  height: 98vh;
+}
+
+.card {
+  width: 25%;
+  border: solid white 5px;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(0, 0%, 100%);
+}
+
+h1 {
+  font-weight: 700;
+}
