@@ -32,7 +32,7 @@ body {
 
 .card {
   width: 25%;
-  border: solid white 5px;
+  border-radius: 30px;
   background-color: hsl(213, 19%, 18%);
   color: hsl(0, 0%, 100%);
   padding: 1.5rem;
