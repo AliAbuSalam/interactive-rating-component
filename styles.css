@@ -23,12 +23,6 @@ body {
   background-image: url('./images/icon-star.svg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  /* padding-left: 8px;
-  padding-top: 8px; */
-}
-
-.img-container img {
-  
 }
 
 .container {
@@ -45,4 +39,8 @@ body {
 
 h1 {
   font-weight: 700;
+}
+
+p, li {
+  color: hsl(217, 12%, 63%);
 }
