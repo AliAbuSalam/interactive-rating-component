@@ -35,6 +35,7 @@ body {
   border: solid white 5px;
   background-color: hsl(213, 19%, 18%);
   color: hsl(0, 0%, 100%);
+  padding: 1.5rem;
 }
 
 h1 {
