@@ -40,6 +40,12 @@ body {
 
 h1 {
   font-weight: 700;
+  margin-bottom: 0;
+  
+}
+
+p {
+  margin-top: 10px;
 }
 
 p, #rating-button {
@@ -54,6 +60,10 @@ p, #rating-button {
   width: 90%;
 }
 
+.button {
+  cursor: pointer;
+}
+
 #rating-button div {
   display: flex;
   align-items: center;
@@ -62,5 +72,16 @@ p, #rating-button {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  cursor: pointer;
+}
+
+#submit-button {
+  display: flex;
+  background-color: hsl(25, 97%, 53%);
+  width: 90%;
+  height: 30px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  
+
 }
