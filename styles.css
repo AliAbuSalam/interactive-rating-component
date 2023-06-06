@@ -29,6 +29,7 @@ body {
 .container {
   width: 100vw;
   height: 98vh;
+  display: grid;
 }
 
 .card {
@@ -37,6 +38,7 @@ body {
   background-color: hsl(213, 19%, 18%);
   color: hsl(0, 0%, 100%);
   padding: 1.5rem;
+  place-self: center;
 }
 
 h1 {
