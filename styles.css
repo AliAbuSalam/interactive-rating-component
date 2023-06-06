@@ -23,6 +23,7 @@ body {
   background-image: url('./images/icon-star.svg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  margin-left: 1.2rem;
 }
 
 .container {
@@ -41,14 +42,20 @@ body {
 h1 {
   font-weight: 700;
   margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
   
 }
 
 p {
-  margin-top: 10px;
+  width: 90%;
+  margin-top: 0.7rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-p, #rating-button {
+p, #rating-button, .attribution {
   color: hsl(217, 12%, 63%);
 }
 
@@ -58,6 +65,7 @@ p, #rating-button {
   list-style-type: none;
   justify-content: space-between;
   width: 90%;
+  margin: 2rem auto;
 }
 
 .button {
@@ -69,8 +77,8 @@ p, #rating-button {
   align-items: center;
   justify-content: center;
   background-color: hsl(214, 24%, 23%);
-  width: 45px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 }
 
@@ -78,10 +86,11 @@ p, #rating-button {
   display: flex;
   background-color: hsl(25, 97%, 53%);
   width: 90%;
-  height: 30px;
+  height: 40px;
   border-radius: 20px;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
   
 
 }
