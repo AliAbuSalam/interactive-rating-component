@@ -19,5 +19,3 @@ let ratingButtonChildren = document.getElementById('rating-button').childNodes;
 let ratingButtons = Array.from(ratingButtonChildren).filter(child => child.nodeName === 'DIV');
 
 ratingButtons.forEach(button => button.addEventListener('click', handleRatingClick(ratingButtons)));
-
-console.log('element: ', ratingButtons);
