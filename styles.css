@@ -110,6 +110,11 @@ p, #rating-button, .attribution {
   margin: 0 auto;
 }
 
+#submit-button:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
 /* -------------------- thankYouPage.html ---------------------*/
 
 .second-page {
