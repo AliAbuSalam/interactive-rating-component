@@ -10,7 +10,6 @@ const handleRatingClick =(ratingButtons) => (event) => {
   }
   const target = event.target
   rating = target.textContent;
-  console.log('rating: ', rating);
   target.classList.remove('off')
   target.classList.add('on');
 }
