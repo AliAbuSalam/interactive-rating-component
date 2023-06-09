@@ -1,9 +1,12 @@
+//rating is a global variable set on ratingButton.js script
+
 const handleSubmitClick = () => {
-  console.log('rating: ', rating);
-  window.location.href = '/thankYouPage.html';
+  if(!rating){
+    return;
+  }
+  window.location.href = `/thankYouPage.html?rating=${rating}`;
 };
 
 const submitButton = document.getElementById('submit-button')
-console.log('submitButton: ', submitButton);
 
 submitButton.addEventListener('click', handleSubmitClick);
