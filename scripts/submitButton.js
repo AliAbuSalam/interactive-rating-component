@@ -4,7 +4,8 @@ const handleSubmitClick = () => {
   if(!rating){
     return;
   }
-  window.location.href = `./thankYouPage.html?rating=${rating}`;
+  const path = `thankYouPage.html?rating=${rating}`;
+  window.location.href = location.hostname === 'localhost' ? `./${path}`: `./interactive-rating-component/${path}`;
 };
 
 const submitButton = document.getElementById('submit-button')
