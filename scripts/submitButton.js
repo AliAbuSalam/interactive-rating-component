@@ -5,6 +5,7 @@ const handleSubmitClick = () => {
     return;
   }
   const path = `thankYouPage.html?rating=${rating}`;
+  console.log(location.hostname === 'localhost' ? `./${path}`: `./interactive-rating-component/${path}`);
   window.location.href = location.hostname === 'localhost' ? `./${path}`: `./interactive-rating-component/${path}`;
 };
 
