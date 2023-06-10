@@ -4,7 +4,7 @@ const handleSubmitClick = () => {
   if(!rating){
     return;
   }
-  window.location.href = `/thankYouPage.html?rating=${rating}`;
+  window.location.href = `./thankYouPage.html?rating=${rating}`;
 };
 
 const submitButton = document.getElementById('submit-button')
